@@ -1,0 +1,44 @@
+- git:
+    local-name: src/planning/deep_collision_predictor/
+    uri: git@github.com:ntnu-arl/deep_collision_predictor.git
+    version: dev/xavier_nx
+- git:
+    local-name: src/driver/realsense_ros/
+    uri: git@github.com:HuanNguyenARL/realsense-ros.git
+    version: opencv4
+- git:
+    local-name: src/driver/mavros_control_interface
+    uri: git@github.com:ntnu-arl/mavros_control_interface.git
+    version: wheel_rotate_drone2
+- git:
+    local-name: src/driver/mavros
+    uri: git@github.com:ntnu-arl/mavros.git
+    version: filtered_acc
+- git:
+    local-name: src/driver/mav_comm
+    uri: git@github.com:PX4/mav_comm.git
+- git:
+    local-name: src/controller/lmf_controller/
+    uri: git@github.com:ntnu-arl/lmf_controller.git
+    version: main
+- git:
+    local-name: src/lmf_launch/
+    uri: git@github.com:ntnu-arl/lmf_launch.git
+    version: main
+- git:
+    local-name: src/perception/msf
+    uri: git@github.com:ntnu-arl/ethzasl_msf.git
+    version: feature/maplab_msgs
+- git:
+    local-name: src/misc/glog_catkin
+    uri: git@github.com:ethz-asl/glog_catkin.git
+- git:
+    local-name: src/misc/catkin_simple
+    uri: git@github.com:catkin/catkin_simple.git
+- git:
+    local-name: src/misc/maplab_msgs
+    uri: git@github.com:ethz-asl/maplab_msgs.git
+- git:
+    local-name: src/misc/vision_opencv
+    uri: git@github.com:HuanNguyenARL/vision_opencv.git
+    version: opencv4
