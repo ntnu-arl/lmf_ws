@@ -1,7 +1,11 @@
 - git:
     local-name: src/planning/deep_collision_predictor/
     uri: git@github.com:ntnu-arl/deep_collision_predictor.git
-    version: dev/xavier_nx
+    version: dev/deep_ensemble
+- git:
+    local-name: src/planning/lmf_planner_srvs_msgs
+    uri: git@github.com:ntnu-arl/lmf_planner_srvs_msgs.git
+    version: main
 - git:
     local-name: src/driver/realsense_ros/
     uri: git@github.com:HuanNguyenARL/realsense-ros.git
@@ -13,22 +17,35 @@
 - git:
     local-name: src/driver/mavros
     uri: git@github.com:ntnu-arl/mavros.git
-    version: filtered_acc
+    version: lmf_interface
 - git:
     local-name: src/driver/mav_comm
-    uri: git@github.com:PX4/mav_comm.git
+    uri: git@github.com:ethz-asl/mav_comm.git
+    version: master
+- git:
+    local-name: src/driver/vision_to_mavros
+    uri: git@github.com:ntnu-arl/vision_to_mavros.git
+    version: lmf_interface
 - git:
     local-name: src/controller/lmf_controller/
     uri: git@github.com:ntnu-arl/lmf_controller.git
-    version: main
+    version: dev/ardupilot_interface
 - git:
     local-name: src/lmf_launch/
     uri: git@github.com:ntnu-arl/lmf_launch.git
-    version: main
+    version: dev/ardupilot
 - git:
     local-name: src/perception/msf
     uri: git@github.com:ntnu-arl/ethzasl_msf.git
-    version: feature/maplab_msgs
+    version: xavier_nx
+- git:
+    local-name: src/perception/darknet_ros
+    uri: git@github.com:ntnu-arl/darknet_ros.git
+    version: lmf_interface
+- git:
+    local-name: src/perception/yolo_trt_ros
+    uri: git@github.com:ntnu-arl/yolo_trt_ros.git
+    version: lmf_yolo
 - git:
     local-name: src/misc/glog_catkin
     uri: git@github.com:ethz-asl/glog_catkin.git
