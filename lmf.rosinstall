@@ -1,7 +1,7 @@
 - git:
-    local-name: src/planning/deep_collision_predictor/
-    uri: git@github.com:ntnu-arl/deep_collision_predictor.git
-    version: dev/deep_ensemble
+    local-name: src/planning/ORACLE
+    uri: git@github.com:ntnu-arl/ORACLE.git
+    version: main
 - git:
     local-name: src/planning/lmf_planner_srvs_msgs
     uri: git@github.com:ntnu-arl/lmf_planner_srvs_msgs.git
@@ -10,10 +10,6 @@
     local-name: src/driver/realsense_ros/
     uri: git@github.com:HuanNguyenARL/realsense-ros.git
     version: opencv4
-- git:
-    local-name: src/driver/mavros_control_interface
-    uri: git@github.com:ntnu-arl/mavros_control_interface.git
-    version: wheel_rotate_drone2
 - git:
     local-name: src/driver/mavros
     uri: git@github.com:ntnu-arl/mavros.git
@@ -34,10 +30,6 @@
     local-name: src/lmf_launch/
     uri: git@github.com:ntnu-arl/lmf_launch.git
     version: dev/ardupilot
-- git:
-    local-name: src/perception/msf
-    uri: git@github.com:ntnu-arl/ethzasl_msf.git
-    version: xavier_nx
 - git:
     local-name: src/perception/darknet_ros
     uri: git@github.com:ntnu-arl/darknet_ros.git
